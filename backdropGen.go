@@ -264,6 +264,7 @@ func createBackdrop(dir string, audioPref AudioConfig) {
 		args = append(args, "-map", "0:a:0?", "-c:a", "aac", "-b:a", "96k")
 	}
 
+	//TODO: options for x265, quality, length
 	args = append(args,
 		"-c:v", "libx264", "-preset", "ultrafast", "-crf", "30",
 		"-maxrate", "1M", "-bufsize", "2M", "-r", "24",
