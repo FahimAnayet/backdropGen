@@ -11,9 +11,17 @@
 *.dll
 *.so
 *.dylib
+backdropGen
+backdropGen.exe
+backdropGen-*
+
+# OS metadata
+.DS_Store
+Thumbs.db
 
 # Log files
 *.log
+debug.log
 
 # Test binary, built with `go test -c`
 *.test
